@@ -8,6 +8,9 @@ int factorial(int number){
 }
 
 int main(){
-    printf("%d\n", factorial(10));
+    int number
+    printf("Enter a Number"\n);
+    scanf("%d", &number);
+    printf("%d\n", factorial(number));
     return 0;
 }
